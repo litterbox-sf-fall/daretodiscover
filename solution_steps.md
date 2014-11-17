@@ -1,3 +1,4 @@
 - rails new daretodiscover
 - rails generate controller wine index
 - add `root 'wine#index'` to `routes.rb`
+- rename wine.coffee to wine.js and remove coffeescript-style comments
