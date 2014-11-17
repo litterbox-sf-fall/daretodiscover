@@ -1,1 +1,2 @@
 - rails new daretodiscover
+- rails generate controller wine index
