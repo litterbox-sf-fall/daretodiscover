@@ -6,3 +6,5 @@
 - ponder how i could loop through `data` and render the results with
   javascript and decide i don't want to do that. decide to use
   handlebars templates instead.
+- add `gem 'handlebars_assets'` to Gemfile
+- run `bundle install`
