@@ -8,3 +8,5 @@
   handlebars templates instead.
 - add `gem 'handlebars_assets'` to Gemfile
 - run `bundle install`
+- mkdir templates
+- touch wine.hbs
