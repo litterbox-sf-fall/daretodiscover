@@ -10,3 +10,6 @@
 - run `bundle install`
 - mkdir templates
 - touch wine.hbs
+- add the following lines to `application.js`
+        //= require handlebars.runtime
+        //= require_tree ./templates
