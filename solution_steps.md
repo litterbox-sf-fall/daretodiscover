@@ -2,3 +2,4 @@
 - rails generate controller wine index
 - add `root 'wine#index'` to `routes.rb`
 - rename wine.coffee to wine.js and remove coffeescript-style comments
+- use `$.getJSON()` to load wine data and log it to console
