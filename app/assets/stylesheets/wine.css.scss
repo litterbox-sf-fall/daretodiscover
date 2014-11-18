@@ -1,3 +1,35 @@
 // Place all the styles related to the wine controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* ooo, sass variable */
+$spacing: 5px;
+
+.drink {
+    /* make two columns (using floats) */
+    .column {
+        float: left;
+    }
+    .clearme {
+        clear: both;
+    }
+
+    /* colors and spacing */
+    padding: $spacing;
+    img {
+        height: 125px;
+        width: 104px;
+    }
+    .name {
+        margin-bottom: $spacing;
+    }
+    .year, .grapes {
+        color: gray;
+        font-size: .9em;
+    }
+    .description {
+        font-size: .8em;
+        margin-top: $spacing;
+        max-width: 500px;
+    }
+}

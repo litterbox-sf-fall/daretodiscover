@@ -1,5 +1,14 @@
-<ul>
-  {{#each wines}}
-  <li>{{name}}</li>
-  {{/each}}
-</ul>
+{{#each wines}}
+<div class="drink">
+  <div class="column">
+    <img src="{{picture}}">
+  </div>
+  <div class="column">
+    <div class="name">{{name}}</div>
+    <div class="year">{{country}}, {{year}}</div>
+    <div class="grapes">{{grapes}} grapes</div>
+    <div class="description">{{description}}</div>
+  </div>
+  <div class="clearme"></div>
+</div>
+{{/each}}
