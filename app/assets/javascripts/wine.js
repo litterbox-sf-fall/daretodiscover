@@ -1,5 +1,7 @@
 $(document).ready(function () {
     $.getJSON("http://daretodiscover.net/wine", function (data) {
-        console.log("wine data", data);
+        var template = HandlebarsTemplates["wine"];
+        var html = template({wines: data});
+        $("#winelist").append(html);
     });
 });
