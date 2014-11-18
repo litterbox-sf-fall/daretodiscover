@@ -34,9 +34,11 @@ of a Ruby on Rails app.
         # Gemfile
         gem 'handlebars_assets'
 
-8.  Don't forget to run `bundle install`
+8.  Don't forget to run `bundle install` and then restart your Rails
+    server.
 
         bundle install
+        rails server
 
 9.  Create a folder called `templates` in your
     `app/assets/javascripts` folder.
